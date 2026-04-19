@@ -1,0 +1,33 @@
+Lillium v 0.2.0
+by Batmangogi
+
+patch notes:
++added a pulse and memory module, as of now empty
++added info for each function 
++added a simple error system
+--this error system include 3 errors variety
+---[!] non grave error, not correct usage of Lillium, Lillium was able to fix the missing requirments
+---[!!] grave error, not correct usage of Lillium, Lillium couldn't fix the error and the function is terminated
+---[!!!] fatal error,something that could disrupt the correct function of the software or could risk the wellbeing of the computer
+OS, software forcefully shut down
++updated tought
+--now as a way to change vectors
+---added Move_To() #soon to be reworked, the current version have lacking logic
+---added Vect_Upd()
++updated Vision
+--added a list of functions that will be moved into Pulse.py
+---added Upd()
+---added Run()
+---added Get_Fps()
+---added Get_func()
+--added Get_RectObj() #still incomplete
+
+Dev notes:
+this version now include a qol update regarding error handling, such as syntax errors or/and missing or unasigned values,
+i also started working on a way to put simple rects as object in the window, also, regarding the whole update function thing,
+i notice how messy it could become, and to avoid spaghetti code i'll just move it to another module called Pulse, also
+i want Lillium to save Dictionaries for the user, therefor a Memory module has been created, it will contain various ways to manage
+save files in JSON,
+that's all for this version, i'll soon make a patch for all the problems i mentioned, thanks for reading! have a nice coding section!
+
+
